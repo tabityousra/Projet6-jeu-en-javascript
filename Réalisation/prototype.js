@@ -14,7 +14,7 @@ var attempt;
  attempt =10;
  // traitement 
 
-btn.addEventListener('click', function(){
+function enter(){
     attempt--;
     nombreDeviner = document.getElementById('userInput').value;
     if(attempt>0){
@@ -37,11 +37,12 @@ btn.addEventListener('click', function(){
             }
 
           }
-        }else {
+        }
+        else {
         output.innerHTML = "c'est rate"
         attemptOutPut.innerHTML= "0-tentative"
     }
 
 
 
-});
+};
