@@ -1,0 +1,17 @@
+Algorithme : devenir le nombre
+Déclare la variable NombreDevenir de type "entier"
+Déclare la variable nombreAlératoire de type "entier"
+Début
+   Ecrire "entre un nombre entre 1 et 100 "
+   lire NombreDevenir
+   nombreAlératoire affectation un nombreAlératoire
+   si NombreDevenir égale nombreAlératoire,Alors
+   afficher "Bravo"
+   sinon
+       si NombreDevenir inférieur que nombreAlératoire,Alors
+        afficher "le nombre que vous avez choisez est plus petit"
+       sinon
+        afficher "le nombre que vous avez choisez est plus grand"
+       finsi
+  finsi 
+fin      
